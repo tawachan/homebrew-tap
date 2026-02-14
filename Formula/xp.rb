@@ -1,26 +1,26 @@
 class Xp < Formula
   desc "Fast, minimal CLI for posting to X (Twitter) from your terminal"
   homepage "https://github.com/tawachan/xp"
-  version "0.1.8"
+  version "0.1.9"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tawachan/xp/releases/download/v0.1.8/xp-darwin-arm64"
-      sha256 "65629615d2a604c036e8f86710aa05e33e6c73605314b9287a14884ed9876d3d"
+      url "https://github.com/tawachan/xp/releases/download/v0.1.9/xp-darwin-arm64"
+      sha256 "153ba711b31c2f4799e6e8251d1e0e3d110cd8f86bbf9c5ea11e37b9e1802019"
     else
-      url "https://github.com/tawachan/xp/releases/download/v0.1.8/xp-darwin-x64"
-      sha256 "cbfae35e700ed57f9cf5c8dc60f6471913fd7c2d52abd74a452fd320241f230a"
+      url "https://github.com/tawachan/xp/releases/download/v0.1.9/xp-darwin-x64"
+      sha256 "b212414830ea1ebbf681285a4169afeac1199b5d784e14ca33ffe85f110c46ce"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/tawachan/xp/releases/download/v0.1.8/xp-linux-arm64"
-      sha256 "1c2ee33b5d7ca2b676263d9be190dd24f85e930be652d68cb63d9ed1ff77aa13"
+      url "https://github.com/tawachan/xp/releases/download/v0.1.9/xp-linux-arm64"
+      sha256 "ed9ddf92f96727576e9444bdf19985898ad75feb3ef765f549e2eb706bad51b7"
     else
-      url "https://github.com/tawachan/xp/releases/download/v0.1.8/xp-linux-x64"
-      sha256 "d41c13ccd25824aaf017dac173d59e1d95aad9ccbdc208496219bc129559347a"
+      url "https://github.com/tawachan/xp/releases/download/v0.1.9/xp-linux-x64"
+      sha256 "2dfab4a27c88c40f869d9539d41e16172f56e53dff353c220d16ba305e252af0"
     end
   end
 
